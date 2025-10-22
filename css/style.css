@@ -1,0 +1,264 @@
+
+body {
+ background-color: black;                        /* สีพื้นหลัง */
+  
+  
+
+}
+
+
+
+
+/* พื้นหลัง navbar เป็นสีดำ และตัวอักษรเป็นสีขาว */
+.navbar {
+  background-color: #000 !important;
+}
+
+.navbar .navbar-brand,
+.navbar .nav-link,
+.navbar .dropdown-toggle {
+  color: #fff !important;
+}
+
+/* เมื่อ hover ที่ลิงก์ใน navbar */
+.navbar .nav-link:hover,
+.navbar .dropdown-toggle:hover {
+  background-color: #ffd700 !important;
+  color: #fff !important;
+  border-radius: 5px;
+}
+
+/* เมนู dropdown */
+.navbar .dropdown-menu {
+  background-color: #000;
+}
+
+.navbar .dropdown-item {
+  color: #fff;
+}
+
+/* เมื่อ hover ที่ dropdown item */
+.navbar .dropdown-item:hover {
+  background-color: gold;
+  color: #fff;
+}
+
+/* ปรับ input และปุ่มในฟอร์มค้นหา */
+.search-form input[type="text"] {
+  padding: 5px;
+  border: none;
+  border-radius: 4px;
+  margin-right: 5px;
+}
+
+.search-form button {
+  padding: 5px 10px;
+  background-color: gold;
+  border: none;
+  border-radius: 4px;
+  color: #000;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.search-form button:hover {
+  background-color: #fff;
+  color: #000;
+}
+
+.navbar-toggler-icon{
+  background-color: gold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.container-box{
+    border: 2px  ;
+background-image: url("../images/eilias-gainutdinov-7PDYgUm6jOI-unsplash.webp");   /* ภาพพื้นหลัง */ 
+background-repeat: no-repeat;                     /* ไม่ให้ภาพซ้ำ */
+  background-size: cover;                           
+  background-position: top;                      /* จัดตำแหน่งภาพให้อยู่ตรงกลาง */
+
+    
+}
+
+
+.row{
+border: 2px ;
+}
+
+.box-left {
+border: 2px  ;
+
+}
+
+.box-right{
+border: 2px ;
+
+}
+
+
+.learn-more {
+display: inline-block;
+  width: 200px;
+  background-color: gold; 
+  color: black;
+  font-weight: bold;
+  font-family: sans-serif;
+  font-size: 15px;
+  text-transform: uppercase;
+  border: 2px solid gold;
+  border-radius: 4px;
+  text-align :center;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+
+.learn-more:hover {
+  background-color: white;
+  color: black;
+}
+
+h1 {
+  color: #fff;
+  font-size: 50px ;
+}
+
+h2{
+  color: #fff;
+  font-size: 40px;
+}
+
+h3{
+  color: #fff;
+  font-size: 24px ;
+}
+
+
+p {
+  font-size: 16px;
+  color: #fff;
+}
+
+.p1{
+  font-size: 25px;
+  color: #000;
+}
+
+h4 {
+  color: #000;
+  font-size: 35px;
+}
+
+context{
+font-size: 20px;
+
+}
+.oxanium-semibold {
+  font-family: 'Oxanium', sans-serif;
+  font-weight: 600;
+}
+
+.kanit-medium {
+  font-family: 'Kanit', sans-serif;
+  font-weight: 500;
+}
+
+.Pattaya { font-family: 'Pattaya', sans-serif;
+  font-weight: 400;
+}
+
+.Pridi {
+  font-family: 'Pridi', serif;
+  font-weight: 300;
+}
+
+
+ 
+
+
+
+.gold {
+  background-color: gold;
+  color: #000;
+
+}
+
+
+
+.column {
+  
+  background-color: white;
+  border: 1px solid ;
+  padding: 40px 20px;
+  text-align: center;
+
+}
+
+/* สลับสีแต่ละกล่อง */
+.column:nth-child(1) {
+  background-color: gold; /* ฟ้า */
+}
+
+.column:nth-child(2) {
+  background-color: white; /* ชมพู */
+}
+
+.column:nth-child(3) {
+  background-color: gold; /* เขียว */
+}
+
+.column:nth-child(4) {
+  background-color: white; /* ส้ม */
+}
+
+
+.back {
+  color: white;
+   display: block;
+  width: fit-content;
+  margin: 40px auto 0;
+  text-decoration: none;
+  font-size: 16px;
+}
+.carousel-inner {
+  overflow: visible;
+}
+
+.carousel-item {
+  transition: transform 0.5s ease;
+  display: flex;
+  justify-content: center;
+}
+
+.slide-img {
+  width: 80%; /* ปรับให้เล็กลงเพื่อให้เห็นภาพถัดไป */
+  border-radius: 10px;
+}
+
+
+
+
+
+
+
+
+
+  
