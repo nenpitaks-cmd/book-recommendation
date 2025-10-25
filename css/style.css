@@ -158,7 +158,7 @@ p {
 }
 
 .p1{
-  font-size: 25px;
+  font-size: 22px;
   color: #000;
 }
 
@@ -167,7 +167,7 @@ h4 {
   font-size: 35px;
 }
 
-context{
+.context{
 font-size: 20px;
 
 }
@@ -234,43 +234,49 @@ font-size: 20px;
   color: white;
    display: block;
   width: fit-content;
-  margin: 40px auto 0;
-  text-decoration: none;
-  font-size: 16px;
+  margin: 20px auto 0;
+  text-decoration: underline;
+  font-size: 15px;
+ 
 }
-.carousel-inner {
+
+#customCarousel {
+  position: relative;
+  width: 80%;
+  margin: auto;
   overflow: visible;
 }
 
-.carousel-item {
-  transition: transform 0.5s ease;
+.carousel-inner {
   display: flex;
   justify-content: center;
-}
-
-.slide-img {
-  width: 80%; /* ปรับให้เล็กลงเพื่อให้เห็นภาพถัดไป */
-  border-radius: 10px;
-}
-
-.carousel-inner {
+  align-items: center;
   overflow: visible;
 }
 
 .carousel-item {
-  transition: transform 0.5s ease;
+  flex: 0 0 content;
+  transition: transform 0.5s ease, opacity 0.5s ease;
+  opacity: 0.3;
+  transform: scale(0.8);
+  margin: 0 10px;
 }
 
-img {
+.carousel-item.active {
+  opacity: 1;
+  transform: scale(1);
+  z-index: 2;
+}
+
+.carousel-image {
   border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  
+  max-width: 100%;
+  height: auto;
+  display: block;
+
 }
 
 
 
-
-
-
-
-
-
-  
