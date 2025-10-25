@@ -127,7 +127,7 @@ display: inline-block;
   border-radius: 4px;
   text-align :center;
   cursor: pointer;
-  transition: background-color 0.3s, color 0.3s;
+  transition:  0.3s, color 0.3s;
 }
 
 
@@ -237,46 +237,5 @@ font-size: 20px;
   margin: 20px auto 0;
   text-decoration: underline;
   font-size: 15px;
- 
 }
-
-#customCarousel {
-  position: relative;
-  width: 80%;
-  margin: auto;
-  overflow: visible;
-}
-
-.carousel-inner {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  overflow: visible;
-}
-
-.carousel-item {
-  flex: 0 0 content;
-  transition: transform 0.5s ease, opacity 0.5s ease;
-  opacity: 0.3;
-  transform: scale(0.8);
-  margin: 0 10px;
-}
-
-.carousel-item.active {
-  opacity: 1;
-  transform: scale(1);
-  z-index: 2;
-}
-
-.carousel-image {
-  border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0,0,0,0.2);
-  
-  max-width: 100%;
-  height: auto;
-  display: block;
-
-}
-
-
 
